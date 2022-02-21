@@ -5,6 +5,7 @@ class Wnv < Formula
   sha256 "d25aca7703a3d0fa5088c85bdf01f3ac370244e04a39d479f435767e454fb62b"
 
   depends_on "bash"
+  depends_on "jq"
 
   def install
     bin.install "wnv"
