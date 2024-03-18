@@ -36,6 +36,7 @@ brew tap Beuterei/homebrew-tap
 
 - [_final](https://github.com/Beuterei/_final-REMASTERED/)
 - [wnv](https://github.com/Beuterei/what-node-version/)
+- [hpm](https://github.com/Beuterei/hacs-package-manager/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
