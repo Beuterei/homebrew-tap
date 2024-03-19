@@ -1,12 +1,12 @@
 class Hpm < Formula
   desc "A package manager build on top of hacs"
   homepage "https://github.com/Beuterei/hacs-package-manager"
-  url "https://github.com/Beuterei/hacs-package-manager/releases/download/0.0.1/hpm"
-  sha256 "e39f37c2ec559cc68448ea2044df41015f353a606ae1481e09b0502548d944f3"
+  url "https://github.com/Beuterei/hacs-package-manager/releases/download/0.0.2/hpm-macos"
+  sha256 "8a0f3aaf84d53928d1d4d26f94bb0f0e9bf41c3938fb9371eedf7dacc61accf3"
 
   depends_on "bash"
 
   def install
-    bin.install "hpm"
+    bin.install "hpm-macos" => "hpm"
   end
 end
