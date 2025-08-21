@@ -5,6 +5,8 @@ class Hpm < Formula
   url "https://github.com/Beuterei/hacs-package-manager/releases/download/0.2.0/hpm-linux-x64-modern"
   sha256 "22a6c5db0cbc7261b7d122c7ec32c9e5ca85f54bdddfd96596f5aae9eec8d774"
 
+  version "0.2.0"
+
   on_linux do
     on_arm do
       url "https://github.com/Beuterei/hacs-package-manager/releases/download/0.2.0/hpm-arm"
